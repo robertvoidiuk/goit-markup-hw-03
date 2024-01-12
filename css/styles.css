@@ -1,0 +1,215 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #fff;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Header */
+
+/* Nav start */
+.logo {
+  color: var(--IRIS, #4d5ae5);
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.logo-span-header {
+  color: var(--NAVY-BLUE, #2e2f42);
+}
+
+.nav-links {
+  color: var(--NAVY-BLUE, #2e2f42);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.nav-links:hover,
+.nav-links:focus,
+.nav-links:active {
+  color: var(--OCEAN, #404bbf);
+}
+/* Nav end */
+
+/* Address start */
+.address-links {
+  color: var(--SLATE, #434455);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.address-links:hover,
+.address-links:focus {
+  color: var(--OCEAN, #404bbf);
+}
+/* Address end */
+
+/* Header end */
+
+/* Main start */
+
+/* Section 1 start */
+.section-first {
+  background: var(--NAVY-BLUE, #2e2f42);
+}
+
+.general-title {
+  color: var(--WHITE, #fff);
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 0.019em;
+}
+
+.button-section-first {
+  color: var(--WHITE, #fff);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+
+  background-color: var(--IRIS, #4d5ae5);
+}
+
+.button-section-first:hover {
+  background: var(--OCEAN, #404bbf);
+}
+/* Section 1 end */
+
+/* Section 2 start */
+
+/* Title start */
+
+/* Title end */
+
+/* List start */
+.titles-li-section-second {
+  color: var(--NAVY-BLUE, #2e2f42);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.text-li-section-second {
+  color: var(--SLATE, #434455);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+/* List end */
+
+/* Section 2 end */
+
+/* Section 3 start */
+
+.section-third {
+  background-color: #f4f4fd;
+}
+
+/* Title start */
+.section-third-title {
+  color: var(--NAVY-BLUE, #2e2f42);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+/* Title end */
+
+/* List start */
+.titles-li-section-third {
+  color: var(--NAVY-BLUE, #2e2f42);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.text-li-section-third {
+  color: var(--SLATE, #434455);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+/* List end */
+
+/* Section 3 end */
+
+/* Section 4 start */
+
+/* Title start */
+.section-fourth-title {
+  color: var(--NAVY-BLUE, #2e2f42);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+/* Title end */
+
+/* List start */
+.titles-li-section-fourth {
+  color: var(--NAVY-BLUE, #2e2f42);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.text-li-section-fourth {
+  color: var(--SLATE, #434455);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+/* List end */
+
+/* Section 4 end */
+
+/* Footer start */
+
+.footer-backgrond {
+  background-color: #2e2f42;
+}
+
+/* Logo start */
+.logo-span-footer {
+  color: var(--CLOUD, #f4f4fd);
+}
+/* Logo end */
+
+/* Text start */
+.footer-text {
+  color: var(--CLOUD, #f4f4fd);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+/* Text end */
+
+/* Footer end */
