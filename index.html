@@ -17,7 +17,7 @@
 <body>
     <!-- Header -->
     <header>
-        <div class="container">
+        <div class="container header-container">
             <!-- Navigation -->
             <nav class="nav">
                 <a class="logo" href="./index.html">Web<span class="logo-span-header">Studio</span></a>
@@ -48,18 +48,20 @@
     </header>
     <!-- Main -->
     <main>
-        <div class="container">
-            <!-- Section 1 -->
-            <section class="section-first">
+        <!-- Section 1 -->
+        <section class="section section-first">
+            <div class="container">
                 <!-- Title -->
                 <h1 class="general-title">Effective Solutions for Your Business</h1>
                 <!-- Button -->
                 <button class="button-section-first" type="button">Order Service</button>
-            </section>
-            <!-- Section 2 -->
-            <section class="section-second">
+            </div>
+        </section>
+        <!-- Section 2 -->
+        <section class="section">
+            <div class="container">
                 <!-- Title -->
-                <h2 class="section-second-title">Solutions</h2>
+                <h2 class="section-second-title visually-hidden">Solutions</h2>
                 <!-- List -->
                 <ul class="section-second-list">
                     <li class="section-second-list-item">
@@ -87,79 +89,103 @@
                             problem-solving.</p>
                     </li>
                 </ul>
-            </section>
-            <!-- Section 3 -->
-            <section class="section-third">
+            </div>
+        </section>
+        <!-- Section 3 -->
+        <section class="section section-third">
+            <div class="container">
                 <!-- Title -->
                 <h2 class="section-third-title">Our Team</h2>
                 <!-- List -->
-                <ul>
+                <ul class="section-third-list">
                     <li class="section-third-list-item">
                         <img src="./images/mark-guerrero.jpg" alt="Mark Guerrero" width="264">
-                        <h3 class="titles-li-section-third">Mark Guerrero</h3>
-                        <p class="text-li-section-third">Product Designer</p>
+                        <div class="section-third-text-block">
+                            <h3 class="titles-li-section-third">Mark Guerrero</h3>
+                            <p class="text-li-section-third">Product Designer</p>
+                        </div>
                     </li>
                     <li class="section-third-list-item">
                         <img src="./images/tom-ford.jpg" alt="Tom Ford" width="264">
-                        <h3 class="titles-li-section-third">Tom Ford</h3>
-                        <p class="text-li-section-third">Frontend Developer</p>
+                        <div class="section-third-text-block">
+                            <h3 class="titles-li-section-third">Tom Ford</h3>
+                            <p class="text-li-section-third">Frontend Developer</p>
+                        </div>
                     </li>
                     <li class="section-third-list-item">
                         <img src="./images/camila-garcia.jpg" alt="Camila Garcia" width="264">
-                        <h3 class="titles-li-section-third">Camila Garcia</h3>
-                        <p class="text-li-section-third">Marketing</p>
+                        <div class="section-third-text-block">
+                            <h3 class="titles-li-section-third">Camila Garcia</h3>
+                            <p class="text-li-section-third">Marketing</p>
+                        </div>
                     </li>
                     <li class="section-third-list-item">
                         <img src="./images/daniel-wilson.jpg" alt="Daniel Wilson" width="264">
-                        <h3 class="titles-li-section-third">Daniel Wilson</h3>
-                        <p class="text-li-section-third">UI Designer</p>
+                        <div class="section-third-text-block">
+                            <h3 class="titles-li-section-third">Daniel Wilson</h3>
+                            <p class="text-li-section-third">UI Designer</p>
+                        </div>
                     </li>
                 </ul>
-            </section>
-            <!-- Section 4 -->
-            <section class="section-fourth">
+            </div>
+        </section>
+        <!-- Section 4 -->
+        <section class="section">
+            <div class="container">
                 <!-- Title -->
                 <h2 class="section-fourth-title">Our Portfolio</h2>
                 <!-- List -->
-                <ul>
+                <ul class="section-fourth-list">
                     <li class="section-fourth-list-item">
                         <img src="./images/banking-app.jpg" alt="Banking App" width="360">
-                        <h3 class="titles-li-section-fourth">Banking App</h3>
-                        <p class="text-li-section-fourth">App</p>
+                        <div class="section-fourth-text-block">
+                            <h3 class="titles-li-section-fourth">Banking App</h3>
+                            <p class="text-li-section-fourth">App</p>
+                        </div>
                     </li>
                     <li class="section-fourth-list-item">
                         <img src="./images/cashless-payment.jpg" alt="Cashless Payment" width="360">
-                        <h3 class="titles-li-section-fourth">Cashless Payment</h3>
-                        <p class="text-li-section-fourth">Marketing</p>
+                        <div class="section-fourth-text-block">
+                            <h3 class="titles-li-section-fourth">Cashless Payment</h3>
+                            <p class="text-li-section-fourth">Marketing</p>
+                        </div>
                     </li>
                     <li class="section-fourth-list-item">
                         <img src="./images/meditation-app.jpg" alt="Meditation App" width="360">
-                        <h3 class="titles-li-section-fourth">Meditation App</h3>
-                        <p class="text-li-section-fourth">App</p>
+                        <div class="section-fourth-text-block">
+                            <h3 class="titles-li-section-fourth">Meditation App</h3>
+                            <p class="text-li-section-fourth">App</p>
+                        </div>
                     </li>
                     <li class="section-fourth-list-item">
                         <img src="./images/taxi-service.jpg" alt="Taxi Service" width="360">
-                        <h3 class="titles-li-section-fourth">Taxi Service</h3>
-                        <p class="text-li-section-fourth">Marketing</p>
+                        <div class="section-fourth-text-block">
+                            <h3 class="titles-li-section-fourth">Taxi Service</h3>
+                            <p class="text-li-section-fourth">Marketing</p>
+                        </div>
                     </li>
                     <li class="section-fourth-list-item">
                         <img src="./images/screen-illustrations.jpg" alt="Screen Illustrations" width="360">
-                        <h3 class="titles-li-section-fourth">Screen Illustrations</h3>
-                        <p class="text-li-section-fourth">Design</p>
+                        <div class="section-fourth-text-block">
+                            <h3 class="titles-li-section-fourth">Screen Illustrations</h3>
+                            <p class="text-li-section-fourth">Design</p>
+                        </div>
                     </li>
                     <li class="section-fourth-list-item">
                         <img src="./images/online-courses.jpg" alt="Online Courses" width="360">
-                        <h3 class="titles-li-section-fourth">Online Courses</h3>
-                        <p class="text-li-section-fourth">Marketing</p>
+                        <div class="section-fourth-text-block">
+                            <h3 class="titles-li-section-fourth">Online Courses</h3>
+                            <p class="text-li-section-fourth">Marketing</p>
+                        </div>
                     </li>
                 </ul>
-            </section>
-        </div>
+            </div>
+        </section>
     </main>
     <!-- Footer -->
     <footer>
-        <!-- Logo -->
-        <div class="footer-backgrond">
+        <div class="container footer-container">
+            <!-- Logo -->
             <a class="logo" href="">Web<span class="logo-span-footer">Studio</span></a>
             <!-- Text -->
             <p class="footer-text">Increase the flow of customers and sales for your business with digital marketing &
