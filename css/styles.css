@@ -250,6 +250,7 @@ img {
 .section-third-list {
   display: flex;
   gap: 24px;
+  row-gap: 48px;
   flex-wrap: wrap;
 }
 
