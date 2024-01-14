@@ -250,7 +250,6 @@ img {
 .section-third-list {
   display: flex;
   gap: 24px;
-  row-gap: 48px;
   flex-wrap: wrap;
 }
 
@@ -310,6 +309,7 @@ img {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
+  row-gap: 48px;
 }
 
 .section-fourth-list-item {
